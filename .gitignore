@@ -3,7 +3,6 @@
 __pycache__/
 *.egg-info
 .mypy_cache
-dask-worker-space/
 docs/build
 docs/source/generated
 build/
