@@ -36,7 +36,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     {{ render_nav_item('index', 'Home') }}
-                    <li class="nav-item"><a class="nav-link" href="https://github.com/helloflask/bootstrap-flask"
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/erayaslan/timediff"
                             target="_blank">GitHub</a></li>
                 </ul>
             </div>
@@ -47,15 +47,6 @@
         {{ render_messages(container=False, dismissible=True, dismiss_animate=True) }}
         {% block content %}{% endblock %}
     </main>
-
-    <footer class="text-center">
-        {% block footer %}
-        <small> &copy;
-            <script>document.write(new Date().getFullYear())</script> <a href="https://github.com/erayaslan">Eray
-                Aslan</a>
-        </small>
-        {% endblock %}
-    </footer>
 
     {{ bootstrap.load_js() }}
 </body>
